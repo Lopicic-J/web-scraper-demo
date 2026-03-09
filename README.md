@@ -1,79 +1,93 @@
 # Python Web Scraper Demo
 
-This project demonstrates a simple Python web scraper that extracts structured data from a website and exports it to CSV and JSON formats.
+A clean Python scraping demo that extracts structured website data and exports it to CSV and JSON.
 
-The scraper collects quotes, authors, and tags from a demo website and converts them into machine-readable datasets.
+## What this project does
 
----
+This script scrapes quote data from a demo website and saves the extracted information in two structured output formats:
+
+- CSV
+- JSON
+
+The scraper collects:
+
+- Quote text
+- Author
+- Tags
 
 ## Features
 
-- Web scraping using **Requests**
-- HTML parsing using **BeautifulSoup**
-- Export to **CSV**
-- Export to **JSON**
-- Clean and minimal Python script
-- Reproducible environment with `requirements.txt`
+- Built with Python
+- Uses Requests and BeautifulSoup
+- Exports data to CSV and JSON
+- Simple command-line usage
+- Clean project structure
+- Ready for portfolio presentation
 
----
+## Project Structure
+
+```text
+web-scraper-demo/
+├── scraper.py
+├── requirements.txt
+├── README.md
+├── example_output.csv
+├── example_output.json
+└── .gitignore
 
 ## Installation
 
-Clone the repository:
-git clone https://github.com/YOUR-USERNAME/web-scraper-demo.git
-
+git clone https://github.com/Lopicic-J/web-scraper-demo.git
 cd web-scraper-demo
-
-
-Create a virtual environment:
 python3 -m venv .venv
 source .venv/bin/activate
-
-Install dependencies:
 pip install -r requirements.txt
 
-
----
-
-## Usage
+## Usage:
 
 Run the scraper:
 python scraper.py
 
+## Output:
 
-The script will create two files:
-example_output.csv
-example_output.json
+The script generates:
+- example_output.csv
+- example_output.json
 
+## Example Use Case
 
----
+This is a simple example of a freelance scraping task where website data is extracted and delivered in a structured format for further use.
 
-## Example Output
+Typical client use cases:
 
-The dataset contains:
+- website data extraction
+- product or content collection
+- CSV dataset creation
+- JSON export for automation workflows
 
-| Quote | Author | Tags |
-|------|------|------|
-| Quote text | Author name | Tag list |
+## Skills Demonstrated
 
----
-
-## Technologies Used
-
-- Python
-- Requests
-- BeautifulSoup
-- CSV / JSON data export
-
----
-
-## Use Case
-
-This script demonstrates a typical freelance task where website data needs to be extracted and delivered as structured datasets.
-
-Common use cases:
-
-- Data collection
+- Python scripting
 - Web scraping
-- Dataset generation
-- Automation scripts
+- HTML parsing
+- CSV export
+- JSON export
+- Data extraction workflow
+
+## Committen
+
+
+## Danach committen
+
+```bash
+git add README.md
+git commit -m "Improve README for portfolio presentation"
+git push
+
+## Preview
+
+![Terminal Demo](screenshots/terminal-demo.png)
+
+git add README.md screenshots
+git commit -m "Add portfolio screenshots to README"
+git push
